@@ -391,10 +391,12 @@ h3 {
 
 nav {
     /*float: right;*/
-    margin: 30px 20px 0px 0px; }
+    margin: 30px 20px 0px 0px; 
+    margin-left: -10px;
+  }
     nav a {
       display: inline-block;
-      margin-left: 20px;
+      margin-left: 10px;
       font-weight: 600;
       text-decoration: underline;}
       nav a:hover {
