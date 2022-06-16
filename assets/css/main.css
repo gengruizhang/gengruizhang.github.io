@@ -527,7 +527,7 @@ h3 {
     margin: 0 auto; }
 
 h3 {
-  padding: 0 20px;
+  padding: 0 0px;
   text-align: left; }
 
 @media screen and (max-width: 650px) {
