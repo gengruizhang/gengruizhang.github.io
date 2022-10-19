@@ -402,17 +402,6 @@ nav {
       nav a:hover {
         color: black; }
 
-a {
-  color:#0000ff;
-  font-size: 18px;
-  font-weight: 500;
-}
-
-
-a:hover, a:focus {
-  text-decoration: underline;
-  color: #318131; }
-
 a.class2 {
   color:#6705ad;
   font-size: 18px;
@@ -423,6 +412,16 @@ a.class2:hover, a.class2:focus {
   text-decoration: underline;
   color: #318131;
 }
+
+a {
+  color:#0000ff;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+a:hover, a:focus {
+  text-decoration: underline;
+  color: #318131; }
 
 h3 {
   padding: 0 20px;
