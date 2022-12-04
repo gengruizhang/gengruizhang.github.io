@@ -316,7 +316,7 @@ section {
   -ms-flex-pack: center; }
   .about-lockup .face {
     height: 260px;
-    width: 260px;
+    width: 270px;
     margin-left: -40px;
     background: url(/assets/img/edward-mug.png);
     background-size: cover;
@@ -324,6 +324,7 @@ section {
   .about-lockup .about-txt {
     height: auto;
     width: 600px;
+    margin-left: 10px;
     order: 2;
     text-align: left; }
     .about-lockup .about-txt h3 {
