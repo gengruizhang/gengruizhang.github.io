@@ -315,8 +315,8 @@ section {
   justify-content: space-around;
   -ms-flex-pack: center; }
   .about-lockup .face {
-    height: 260px;
-    width: 270px;
+    height: 220;
+    width: 220px;
     margin-left: -40px;
     background: url(/assets/img/edward-mug.png);
     background-size: cover;
@@ -327,10 +327,16 @@ section {
     margin-left: 10px;
     order: 2;
     text-align: left; }
-    .about-lockup .about-txt h3 {
-      margin-left: -20px;
-      padding-top: 10;
-      text-align: left; }
+  .about-lockup .about-txt h3 {
+    margin-left: -20px;
+    padding-top: 10;
+    text-align: left; }
+  .about-lockup .about-txt h2 {
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.7);
+    margin-left: 0px;
+    padding-top: 10;
+    text-align: left; }
 
 @media screen and (max-width: 650px) {
   .about-lockup {
@@ -415,7 +421,8 @@ a.class2:hover, a.class2:focus {
 }
 
 a {
-  color:#0000ff;
+  /* color for links #0000ff*/
+  color:#3090C7;
   font-size: 18px;
   font-weight: 500;
 }
