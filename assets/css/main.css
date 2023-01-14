@@ -318,7 +318,7 @@ section {
     height: 220;
     width: 220px;
     margin-left: -40px;
-    background: url(/assets/img/edward-mug.png);
+    background: url(../img/edward-mug.png);
     background-size: cover;
     order: 2; }
   .about-lockup .about-txt {
