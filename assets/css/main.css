@@ -315,7 +315,7 @@ section {
   justify-content: space-around;
   -ms-flex-pack: center; }
   .about-lockup .face {
-    height: 220;
+    height: 220px;
     width: 220px;
     margin-left: -40px;
     background: url(../img/edward-mug.png);
