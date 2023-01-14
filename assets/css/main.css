@@ -402,6 +402,7 @@ nav {
     margin-left: -10px;
   }
     nav a {
+      color:black; /* navigation panel */
       display: inline-block;
       margin-left: 10px;
       font-weight: 600;
