@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <title>Gengrui (Edward) Zhang | home page</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="/assets/css/main.css" />
 </head>
+
 <body>
 
-<!-- 
+  <!-- 
 <header>
     <h1><span>Gengrui (Edward) Zhang</span></h1>
 </header>
 -->
 
-<section>
-  <div class="about-lockup">
+  <section>
+    <div class="about-lockup">
       <div class="face"></div>
       <div class="about-txt">
         <div class="blurb">
@@ -26,187 +28,249 @@
           <br>
           <a href="https://www.utoronto.ca/">University of Toronto</a>
           </p>
-          <a href="https://www.linkedin.com/in/gengrui-edward-zhang-a03a03152/"><img src = "/assets/img/linkedin_logo.png" height="28/" style="padding: 8px;"></a>
-          <a href="https://scholar.google.ca/citations?user=bMEwfgcAAAAJ&hl=en"><img src = "/assets/img/gscholar_logo.png" height="28/" style="padding: 8px;"></a>
-          <a href="https://github.com/thatisedward"><img src = "assets/img/github_logo.png" height="28/" style="padding: 8px;"></a>
-          <a href="mailto:gengrui.zhang@mail.utoronto.ca"><img src = "/assets/img/email_logo.png" height="28/" style="padding: 8px;"></a>
-  </div>
-</section>
+          <a href="https://www.linkedin.com/in/gengrui-edward-zhang-a03a03152/"><img src="/assets/img/linkedin_logo.png"
+              height="28/" style="padding: 8px;"></a>
+          <a href="https://scholar.google.ca/citations?user=bMEwfgcAAAAJ&hl=en"><img src="/assets/img/gscholar_logo.png"
+              height="28/" style="padding: 8px;"></a>
+          <a href="https://github.com/gengruizhang"><img src="assets/img/github_logo.png" height="28/"
+              style="padding: 8px;"></a>
+          <a href="mailto:gengrui.zhang@mail.utoronto.ca"><img src="/assets/img/email_logo.png" height="28/"
+              style="padding: 8px;"></a>
+        </div>
+  </section>
 
-<section>
-<nav>
-  <a href="#shortbio">Short Bio</a>
-  <a href="#publications">Publications</a>
-  <a href="#teaching">Teaching</a>
-  <a href="#talks">Talks</a>
-  <a href="/assets/files/gr-edward-zhang-cv.pdf"> Curriculum Vitae </a>
-</nav>
-</section>
+  <section>
+    <nav>
+      <a href="#shortbio">Short Bio</a>
+      <a href="#publications">Publications</a>
+      <a href="#teaching">Teaching</a>
+      <a href="#talks">Talks</a>
+      <a href="/assets/files/gr-edward-zhang-cv.pdf"> Curriculum Vitae </a>
+    </nav>
+  </section>
 
-<section>
+  <section>
     <h3 id="shortbio">Recent News</h3>
     <ul>
-      <li> [Mar 2023] Check out my recent lecture on Consensus Algorithms and Fault Tolerance! 
+      <li> [Dec 2023] <a href="https://arxiv.org/pdf/2307.08154.pdf">PrestigeBFT</a>, a novel reputation-based BFT
+        consensus algorithm, is accepted by <a href="https://icde2024.github.io/">ICDE'24 </a>
+      </li>
+      <li> [Oct 2023] <a href="https://dl.acm.org/doi/abs/10.1145/3620678.3624646">Drone</a>, a resource orchestration
+        framework for containerized clouds, is accepted by <a href="https://acmsocc.org/2023/">SoCC'23 </a>
+      </li>
+      <li> [Mar 2023] Check out my recent lecture on Consensus Algorithms and Fault Tolerance!
         <a href="https://youtu.be/atPK2YH1nCY">[YouTube]</a>
         <a href="https://www.bilibili.com/video/BV18o4y167PU/">[Bilibili]</a>
       </li>
-      <li> [Jan 2023] Check out <b>V-Guard</b>, a new blockchain architecture designed for V2X networks! V-Guard achieves seamless consensus under membership changes, targeting the problem of vehicles' arbitrary connectivity on the roads. 
+      <li> [Jan 2023] Check out <b>V-Guard</b>, a new blockchain architecture designed for V2X networks! V-Guard
+        achieves seamless consensus under membership changes, targeting the problem of vehicles' arbitrary connectivity
+        on the roads.
         <a href="https://arxiv.org/abs/2301.06210.pdf">[Paper]</a>
         <a href="https://github.com/vguardbc/vguardbft">[Code]</a>
       </li>
     </ul>
-</section>
+  </section>
 
-<section>
+  <section>
     <h3 id="shortbio">Short Bio</h3>
     <div>
-      I am a PhD candidate at the Department of Electrical & Computer Engineering at the University of Toronto under the supervision of <a href="https://www.ece.utoronto.ca/people/jacobsen-h-a/">Hans-Arno Jacobsen</a>. My research interests focus on the core problems in distributed systems, especially consensus algorithms and fault tolerance. My current research studies aim to develop algorithms and architectures that build up fault-tolerant, high-performance, highly scalable, and highly available distributed systems. I am especially interested in developing consensus algorithms binding efficiency and robustness under various fault-tolerant models including benign and Byzantine failures, and applying theoretical problems to real-world applications. Towards these objectives, I am also broadly interested in questions related to distributed computing theories, blockchains, P2P systems, cloud/distributed databases, microservices, serverless computing, and systems for AI.
+      I am a PhD candidate at the Department of Electrical & Computer Engineering at the University of Toronto under the
+      supervision of <a href="https://www.ece.utoronto.ca/people/jacobsen-h-a/">Hans-Arno Jacobsen</a>.
+      My current research is at the core of distributed systems, especially consensus algorithms and fault tolerance. My
+      research contributes to both the theoretical foundations of distributed computing and practical system designs and
+      implementations.
+      My long-term research goal is to develop <strong>3H</strong> distributed systems -- characterized by high
+      performance, high scalability, and high availability. It is focused on designing general and tailored consensus
+      algorithms, fault tolerance, and consistency models to effectively support various distributed applications,
+      including blockchains, databases, cloud computing, and distributed training systems.
     </div>
-</section>
-    
-<section>
-  <h3 id="publications">Publications</h3>
-  Conference Proceedings:
-  <ol>
-    <li> <strong>[Under review]</strong> 
-      <u>Gengrui Zhang</u>, Fei Pan, Sofia Tijanic, and Hans-Arno Jacobsen.
-      Prestige BFT: Making Decentralization Efficient in Distributed Ledgers using Reputation-based Byzantine Fault-Tolerant Consensus Algorithms.
-      </p>  
-    </li>
+  </section>
 
-    <li> <strong>[Under review]</strong> 
-      <u>Gengrui Zhang</u>, Yunhao Mao, Shiquan Zhang, Shashank Motepalli, and Hans-Arno Jacobsen.
-      <a href="https://arxiv.org/abs/2301.06210.pdf">V-Guard: A Fast, Dynamic, and Versatile Permissioned Blockchain Framework for V2X Networks.</a>
-      </br>
+  <section>
+    <h3 id="publications">Publications</h3>
+    Conference Proceedings:
+    <ol>
+      <li> <strong>[Under review]</strong>
+        <u>Gengrui Zhang</u>, Fei Pan, Sofia Tijanic, and Hans-Arno Jacobsen.
+        Prestige BFT: Making Decentralization Efficient in Distributed Ledgers using Reputation-based Byzantine
+        Fault-Tolerant Consensus Algorithms.
+        </p>
+      </li>
+
+      <li> <strong>[Under review]</strong>
+        <u>Gengrui Zhang</u>, Yunhao Mao, Shiquan Zhang, Shashank Motepalli, and Hans-Arno Jacobsen.
+        <a href="https://arxiv.org/abs/2301.06210.pdf">V-Guard: A Fast, Dynamic, and Versatile Permissioned Blockchain
+          Framework for V2X Networks.</a>
+        </br>
         <a href="https://github.com/vguardbc/vguardbft" class="class2">[Code]</a>
-      </p>  
-    </li>
+        </p>
+      </li>
 
-    <li> <strong>[ICDCS'22]</strong> 
-      <u>Gengrui Zhang</u> and Hans-Arno Jacobsen.
-    <a href="https://ieeexplore.ieee.org/document/9912172">ESCAPE to Precaution against Leader Failures.</a> 
-    In <i>2022 IEEE 42nd International Conference on Distributed Computing Systems</i>, IEEE, 2022
-    </br>
-    <a href="/assets/files/icdcs22-escape.pdf" class="class2"> [Slides] </a> &nbsp; <a href="https://youtu.be/P-1P_mFaI9U" class="class2"> [Video] </a>
-    </p>  
-    </li>
+      <li> <strong>[ICDCS'22]</strong>
+        <u>Gengrui Zhang</u> and Hans-Arno Jacobsen.
+        <a href="https://ieeexplore.ieee.org/document/9912172">ESCAPE to Precaution against Leader Failures.</a>
+        In <i>2022 IEEE 42nd International Conference on Distributed Computing Systems</i>, IEEE, 2022
+        </br>
+        <a href="/assets/files/icdcs22-escape.pdf" class="class2"> [Slides] </a> &nbsp; <a
+          href="https://youtu.be/P-1P_mFaI9U" class="class2"> [Video] </a>
+        </p>
+      </li>
 
-    <li> <strong>[Middleware'22]</strong> 
-      <u>Gengrui Zhang</u>.
-    <a href="https://dl.acm.org/doi/10.1145/3569950.3569964">Binding Efficiency and Robustness for Blockchains using Reputation-based Byzantine Fault-Tolerant Consensus Algorithms.</a> 
-    In <i>Proceedings of the 23rd International Middleware Conference</i>, Middleware '22, pages 11-14. ACM, 2022 (Short Paper)
-    </p>  
-    </li>
+      <li> <strong>[Middleware'22]</strong>
+        <u>Gengrui Zhang</u>.
+        <a href="https://dl.acm.org/doi/10.1145/3569950.3569964">Binding Efficiency and Robustness for Blockchains using
+          Reputation-based Byzantine Fault-Tolerant Consensus Algorithms.</a>
+        In <i>Proceedings of the 23rd International Middleware Conference</i>, Middleware '22, pages 11-14. ACM, 2022
+        (Short Paper)
+        </p>
+      </li>
 
-    <li> <strong>[Middleware'21]</strong> 
-      <u>Gengrui Zhang</u> and Hans-Arno Jacobsen.
-    <a href="https://dl.acm.org/doi/10.1145/3464298.3484503">Prosecutor: An Efficient BFT Consensus Algorithm with Behavior-Aware Penalization against Byzantine Attacks.</a> 
-    In <i>Proceedings of the 22nd International Middleware Conference</i>, Middleware '21, pages 52-63. ACM, 2021
-    </br>
-    <a href="/assets/files/prosecutor-mw21.pdf" class="class2"> [Slides] </a>
-    </p>  
-    </li>
+      <li> <strong>[Middleware'21]</strong>
+        <u>Gengrui Zhang</u> and Hans-Arno Jacobsen.
+        <a href="https://dl.acm.org/doi/10.1145/3464298.3484503">Prosecutor: An Efficient BFT Consensus Algorithm with
+          Behavior-Aware Penalization against Byzantine Attacks.</a>
+        In <i>Proceedings of the 22nd International Middleware Conference</i>, Middleware '21, pages 52-63. ACM, 2021
+        </br>
+        <a href="/assets/files/prosecutor-mw21.pdf" class="class2"> [Slides] </a>
+        </p>
+      </li>
 
-    <li> <strong>[Brains'21]</strong> 
-      James Meijers, Edward Au, Yuxi Cai, Hans-Arno Jacobsen, Shashank Motepalli, Robert Sun, Andreas Veneris, <u>Gengrui Zhang</u>, and Shiquan Zhang.
-    <a href="http://msrg.org/publications/pdf_files/2021/v2xusecases2021-Blockchain_for_V2X:_A_Taxonom.pdf"> Blockchain for V2X: A Taxonomy of Design Use Cases and System Requirements.</a>
-    In <i>Conference on Blockchain Research & Applications for Innovative Networks and Services</i>, BRAINS, IEEE, 2021 (Author names in alphabetical order except the first author)
-    </p>  
-    </li>
+      <li> <strong>[Brains'21]</strong>
+        James Meijers, Edward Au, Yuxi Cai, Hans-Arno Jacobsen, Shashank Motepalli, Robert Sun, Andreas Veneris,
+        <u>Gengrui Zhang</u>, and Shiquan Zhang.
+        <a href="http://msrg.org/publications/pdf_files/2021/v2xusecases2021-Blockchain_for_V2X:_A_Taxonom.pdf">
+          Blockchain for V2X: A Taxonomy of Design Use Cases and System Requirements.</a>
+        In <i>Conference on Blockchain Research & Applications for Innovative Networks and Services</i>, BRAINS, IEEE,
+        2021 (Author names in alphabetical order except the first author)
+        </p>
+      </li>
 
-    <li> <strong>[GPC'18]</strong>
-      <u>Gengrui Zhang</u> and Chengzhong Xu. <a href="https://link.springer.com/chapter/10.1007/978-3-030-15093-8_21">An Efficient Consensus Protocol for Real-time Permissioned Blockchains under Non-Byzantine Conditions.</a> In <i>International Conference on Green, Pervasive, and Cloud Computing</i>, pages 298-311. Springer, 2018 <strong>(Best Paper Award)</strong>
+      <li> <strong>[GPC'18]</strong>
+        <u>Gengrui Zhang</u> and Chengzhong Xu. <a
+          href="https://link.springer.com/chapter/10.1007/978-3-030-15093-8_21">An Efficient Consensus Protocol for
+          Real-time Permissioned Blockchains under Non-Byzantine Conditions.</a> In <i>International Conference on
+          Green, Pervasive, and Cloud Computing</i>, pages 298-311. Springer, 2018 <strong>(Best Paper Award)</strong>
+        </br>
+        <a href="/assets/img/GPC_BestPaperImg.jpg" class="class2">[IMG]</a> &nbsp; <a
+          href="/assets/img/GPC_BestPaperCert.pdf" class="class2">[Award]</a>
+      </li>
+    </ol>
+
+    Journal Articles:
+    <ol>
+      <li>
+        <u>Gengrui Zhang</u> and Hans-Arno Jacobsen.
+        Prosecutor+: An Efficient BFT Consensus Algorithm with Behavior-aware Penalization and Proactive Recovery. (In
+        preparation for submssion.)
+        </p>
+      </li>
+
+      <li> <strong>[CSUR]</strong>
+        <u>Gengrui Zhang</u>, Pan Fei, Michael Dang'ana, Yunhao Mao, Shashank Motepalli, Shiquan Zhang, and Hans-Arno
+        Jacobsen.
+        <a href="https://arxiv.org/abs/2204.03181">Reaching Consensus in the Byzantine Empire: A Comprehensive Review of
+          BFT Consensus Algorithms.</a>
+        <i>arXiv preprint arXiv:2204.03181 (2022)</i>
+        </p>
+      </li>
+
+      <li> <strong>[OJVS]</strong>
+        James Meijers, Panagiotis Michalopoulos, Shashank Motepalli, <u>Gengrui Zhang</u>, Shiquan Zhang, Andreas
+        Veneris, and Hans-Arno Jacobsen.
+        <a href="https://ieeexplore.ieee.org/abstract/document/9769951">Blockchain for V2X: Applications and
+          Architectures.</a>
+        <i>IEEE Open Journal of Vehicular Technology (2022)</i>
+        </p>
+      </li>
+    </ol>
+  </section>
+
+  <section>
+    <h3 id="teaching">Teaching</h3>
+
+    <strong>Guest lectures:</strong>
+    <ol>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/atPK2YH1nCY" title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
       </br>
-    <a href="/assets/img/GPC_BestPaperImg.jpg" class="class2">[IMG]</a> &nbsp; <a href="/assets/img/GPC_BestPaperCert.pdf" class="class2">[Award]</a>
-    </li>
-  </ol>
+      <li><em><a href="/assets/files/edward-1779-consensus-lecture.pdf">Introduction to Consensus Algorithms</a></em>,
+        in ECE1779 Introduction to Cloud Computing.
+        </p>
+      </li>
 
-  Journal Articles:
-  <ol>
-    <li> 
-      <u>Gengrui Zhang</u> and Hans-Arno Jacobsen.
-      Prosecutor+: An Efficient BFT Consensus Algorithm with Behavior-aware Penalization and Proactive Recovery. (In preparation for submssion.)
-      </p>  
-    </li>
-
-    <li> <strong>[CSUR]</strong> 
-      <u>Gengrui Zhang</u>, Pan Fei, Michael Dang'ana, Yunhao Mao, Shashank Motepalli, Shiquan Zhang, and Hans-Arno Jacobsen.
-      <a href="https://arxiv.org/abs/2204.03181">Reaching Consensus in the Byzantine Empire: A Comprehensive Review of BFT Consensus Algorithms.</a> 
-      <i>arXiv preprint arXiv:2204.03181 (2022)</i>
-      </p>  
-    </li>
-
-    <li> <strong>[OJVS]</strong> 
-      James Meijers, Panagiotis Michalopoulos, Shashank Motepalli, <u>Gengrui Zhang</u>, Shiquan Zhang, Andreas Veneris, and Hans-Arno Jacobsen.
-      <a href="https://ieeexplore.ieee.org/abstract/document/9769951">Blockchain for V2X: Applications and Architectures.</a> 
-      <i>IEEE Open Journal of Vehicular Technology (2022)</i>
-      </p>  
-    </li>
-  </ol>
-</section>
-  
-<section>
-  <h3 id="teaching">Teaching</h3>
-
-  <strong>Guest lectures:</strong>
-    <ol>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/atPK2YH1nCY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    </br>
-    <li><em><a href="/assets/files/edward-1779-consensus-lecture.pdf">Introduction to Consensus Algorithms</a></em>, in ECE1779 Introduction to Cloud Computing.
-    </p>
-    </li>
-
-    <li><em><a href="/assets/files/edward-1770-blockchain-lecture.pdf">Blockchains and Consensus Protocols</a></em>, in ECE1770 Trends in Middleware: Blockchain Technologies.</p></li>
+      <li><em><a href="/assets/files/edward-1770-blockchain-lecture.pdf">Blockchains and Consensus Protocols</a></em>,
+        in ECE1770 Trends in Middleware: Blockchain Technologies.</p>
+      </li>
     </ol>
 
-  <strong>Teaching Assistantships:</strong>
-  </p>
-  <em>* Teaching assistantships are an integral part of the doctoral education at the University of Toronto. </em>
-  </p>
-  >> Graduate level courses:
-    <ol>
-    <li>Head TA, ECE1770 Trends in Middleware: blockchain technologies, 2021 Winter, 2022 Winter, 2023 Winter.
-    </br>
-    <a href="https://docs.google.com/document/d/1uhT-ivZwSVKzYEnTWoakVzsrA85xZEN0wOXJfWnwwpU/edit?usp=sharing" class="class2"> [Syllabus] </a>
+    <strong>Teaching Assistantships:</strong>
     </p>
-    </li>
-    <li>TA, ECE1762 Algorithms and Data Structures, 2021 Fall and 2021 Winter.</p></li>
+    <em>* Teaching assistantships are an integral part of the doctoral education at the University of Toronto. </em>
+    </p>
+    >> Graduate level courses:
+    <ol>
+      <li>Head TA, ECE1770 Trends in Middleware: blockchain technologies, 2021 Winter, 2022 Winter, 2023 Winter.
+        </br>
+        <a href="https://docs.google.com/document/d/1uhT-ivZwSVKzYEnTWoakVzsrA85xZEN0wOXJfWnwwpU/edit?usp=sharing"
+          class="class2"> [Syllabus] </a>
+        </p>
+      </li>
+      <li>TA, ECE1762 Algorithms and Data Structures, 2021 Fall and 2021 Winter.</p>
+      </li>
     </ol>
 
-  >> Undergraduate level courses:
-  <ol>
-    <li>Head TA, ECE419 Distributed Systems, 2020 Winter, 2021 Winter, 2022 Winter, and 2023 Winter.</p></li>
+    >> Undergraduate level courses:
+    <ol>
+      <li>Head TA, ECE419 Distributed Systems, 2020 Winter, 2021 Winter, 2022 Winter, and 2023 Winter.</p>
+      </li>
 
-    <li>TA, ECE345 Algorithms and Data Structures, 2019 Winter, 2020 Fall, and 2021 Fall.</p></li>
+      <li>TA, ECE345 Algorithms and Data Structures, 2019 Winter, 2020 Fall, and 2021 Fall.</p>
+      </li>
 
-    <li>TA, CSC343 Introduction to Databases, 2023 Winter.</p></li>
-    
-    <li>TA, CSC263 Data Structures and Analysis, 2021 Fall.</p></li>
+      <li>TA, CSC343 Introduction to Databases, 2023 Winter.</p>
+      </li>
 
-    <li>TA, ECE244 Programming Fundamentals, 2019 Fall, 2020 Fall, and 2021 Fall.</p></li>
+      <li>TA, CSC263 Data Structures and Analysis, 2021 Fall.</p>
+      </li>
 
-    <li>TA, CSC148 Introduction to Computer Science, 2022 Winter.</p></li>
+      <li>TA, ECE244 Programming Fundamentals, 2019 Fall, 2020 Fall, and 2021 Fall.</p>
+      </li>
 
-  </ol>
-</section>
+      <li>TA, CSC148 Introduction to Computer Science, 2022 Winter.</p>
+      </li>
 
-<section>
+    </ol>
+  </section>
+
+  <section>
     <h3 id="talks">Talks</h3>
     <ol>
 
-     <li><em><a href="/assets/files/fairness.pdf">Fairness in Byzantine Consensus</a></em>, Macau University, Macau SAR, China, 2021.04</p></li>
+      <li><em><a href="/assets/files/fairness.pdf">Fairness in Byzantine Consensus</a></em>, Macau University, Macau
+        SAR, China, 2021.04</p>
+      </li>
 
-     <li><em>Scaling Byzantine Consensus</em>, ACM SACMAT, Toronto, Canada, 2019.06</p></li>
-      
-     <li><em><a href="/assets/files/19April.pdf">Optimizing Consensus Algorithms for Permissioned Blockchains</a></em>, Blockchain Week, Toronto, Canada, 2019.04</p></li>
-     
-     <li><em><a href="/assets/files/tencent_seminar.pdf">Untangling Blockchain Consensus Protocols from Blockchain 1.0 to 2.0</a></em>, Tencent, Shenzhen, China, 2018.04</p></li>
-     
-     <li><em>High-level Comparsions of Cosensus Protocols between Permissionless Blockchains and Permissioned Blockchains</em>, SIAT, CAS, Shenzhen, China, 2017.11</p></li>
-  </ol>
-</section>
+      <li><em>Scaling Byzantine Consensus</em>, ACM SACMAT, Toronto, Canada, 2019.06</p>
+      </li>
 
-<script src="/assets/js/jquery-2.1.1.min.js"></script>
-<script src="/assets/js/functions.js" type="text/javascript"></script>
+      <li><em><a href="/assets/files/19April.pdf">Optimizing Consensus Algorithms for Permissioned Blockchains</a></em>,
+        Blockchain Week, Toronto, Canada, 2019.04</p>
+      </li>
+
+      <li><em><a href="/assets/files/tencent_seminar.pdf">Untangling Blockchain Consensus Protocols from Blockchain 1.0
+            to 2.0</a></em>, Tencent, Shenzhen, China, 2018.04</p>
+      </li>
+
+      <li><em>High-level Comparsions of Cosensus Protocols between Permissionless Blockchains and Permissioned
+          Blockchains</em>, SIAT, CAS, Shenzhen, China, 2017.11</p>
+      </li>
+    </ol>
+  </section>
+
+  <script src="/assets/js/jquery-2.1.1.min.js"></script>
+  <script src="/assets/js/functions.js" type="text/javascript"></script>
 </body>
+
 </html>
