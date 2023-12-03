@@ -421,13 +421,6 @@ a.class2 {
   font-weight: 500;
 }
 
-a.classtag{
-  background-color:#000099;
-  color:#FFFFFF;
-  padding: 0.3%;
-  font-size: 18px;
-  font-weight: 500;
-}
 /*
 a.class2:hover, a.class2:focus {
   text-decoration: underline;
@@ -445,6 +438,14 @@ a {
 a:hover, a:focus {
   text-decoration: underline;
   color: #318131; }
+
+a.classtag{
+  background-color:#000099;
+  color:#FFFFFF;
+  padding: 0.2%;
+  font-size: 18px;
+  font-weight: 500;
+}
 
 h3 {
   padding: 0 20px;
